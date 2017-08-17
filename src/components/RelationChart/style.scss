@@ -1,0 +1,25 @@
+// http://www.cnblogs.com/yangrenmu/p/7118398.html
+.chart {
+  @at-root {
+    &_root {
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
